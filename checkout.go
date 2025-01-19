@@ -115,6 +115,7 @@ type CheckoutCreateOptions struct {
 	Logo                *bool  `json:"logo,omitempty"`
 	Desc                *bool  `json:"desc,omitempty"`
 	Discount            *bool  `json:"discount,omitempty"`
+	SkipTrial           *bool  `json:"skip_trial,omitempty"`
 	Dark                *bool  `json:"dark,omitempty"`
 	SubscriptionPreview *bool  `json:"subscription_preview,omitempty"`
 	ButtonColor         string `json:"button_color,omitempty"`
